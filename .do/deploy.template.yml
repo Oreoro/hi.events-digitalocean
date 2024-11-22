@@ -49,4 +49,4 @@ spec:
           scope: RUN_TIME
           value: 'false'
   databases:
-    - name: urbanevents-db
+    - name: db
