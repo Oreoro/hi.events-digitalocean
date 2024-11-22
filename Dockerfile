@@ -1,4 +1,4 @@
-FROM Oreoro/urbanevents
+FROM oreoro/urbanevents
 
 COPY digitalocean-start.sh /digitalocean-start.sh
 RUN chmod +x /digitalocean-start.sh
