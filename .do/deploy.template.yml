@@ -5,7 +5,7 @@ spec:
       dockerfile_path: Dockerfile
       http_port: 80
       git:
-        repo_clone_url: https://github.com/HiEventsDev/hi.events-digitalocean.git
+        repo_clone_url: https://github.com/Oreoro/urbanevents.git
         branch: main
       envs:
         - key: APP_KEY
@@ -49,4 +49,4 @@ spec:
           scope: RUN_TIME
           value: 'false'
   databases:
-    - name: hi-events-db
+    - name: urbanevents-db
